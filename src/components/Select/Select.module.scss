@@ -1,0 +1,19 @@
+.select {
+  cursor: pointer;
+  width: 120px;
+  height: 30px;
+  border-radius: 3px;
+  font-size: calc(15px / 16px) + rem;
+  font-weight: bold;
+  color: rgb(61, 54, 54);
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.name {
+  font-size: calc(18px / 16px) + rem;
+}

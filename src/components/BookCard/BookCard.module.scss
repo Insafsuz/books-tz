@@ -1,0 +1,28 @@
+.card {
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: hsla(0, 0%, 100%, 0.253);
+  padding: 20px 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  .image {
+    margin-bottom: 20px;
+    width: 150px;
+    height: 200px;
+  }
+  .category {
+    font-size: calc(16px / 16px) + rem;
+    margin-bottom: 20px;
+    color: gray;
+    font-weight: 700;
+  }
+  .title {
+    font-size: calc(22px / 16px) + rem;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  .author {
+    color: #000;
+  }
+}
